@@ -2,16 +2,16 @@
   {
     "label": "Qwen2.5-0.5B base",
     "best_layer": 18,
-    "best_acc": 0.585,
-    "shuffled_acc": 0.49499999999999994,
-    "transfer_acc": 0.5,
-    "n_known": 23,
-    "sycophancy": 0.782608695652174,
-    "knows_but_agrees": 0.4782608695652174,
-    "belief_shift": -0.347786817530688,
-    "sec_per_prompt": 0.03450349768002828,
-    "probe_score_corr": 0.1503812253024401,
-    "probe_unembed_cos": 0.03236417303970746,
+    "best_accuracy": 0.585,
+    "shuffled_accuracy": 0.49499999999999994,
+    "transfer_accuracy": 0.5,
+    "num_known": 23,
+    "sycophancy": 0.391304347826087,
+    "knows_but_agrees": 0.2608695652173913,
+    "belief_shift": -0.14015554272251227,
+    "seconds_per_prompt": 0.03411016941070557,
+    "probe_score_correlation": 0.1503812253024401,
+    "probe_unembed_cosine": 0.03236417303970746,
     "layers": [
       0,
       2,
@@ -26,7 +26,7 @@
       20,
       22
     ],
-    "accs": [
+    "accuracies": [
       0.45499999999999996,
       0.5599999999999999,
       0.545,
@@ -40,7 +40,7 @@
       0.555,
       0.565
     ],
-    "shuf": [
+    "shuffled_accuracies": [
       0.495,
       0.49499999999999994,
       0.47000000000000003,
@@ -58,16 +58,16 @@
   {
     "label": "Qwen2.5-0.5B instruct",
     "best_layer": 18,
-    "best_acc": 0.5900000000000001,
-    "shuffled_acc": 0.47000000000000003,
-    "transfer_acc": 0.51,
-    "n_known": 16,
-    "sycophancy": 0.5,
-    "knows_but_agrees": 0.1875,
-    "belief_shift": -0.32283761343413714,
-    "sec_per_prompt": 0.039845369656880694,
-    "probe_score_corr": 0.15263341219659204,
-    "probe_unembed_cos": 0.048964486401892694,
+    "best_accuracy": 0.5900000000000001,
+    "shuffled_accuracy": 0.47000000000000003,
+    "transfer_accuracy": 0.51,
+    "num_known": 16,
+    "sycophancy": 0.0625,
+    "knows_but_agrees": 0.0,
+    "belief_shift": 0.298008055636785,
+    "seconds_per_prompt": 0.0345419442653656,
+    "probe_score_correlation": 0.15263341219659204,
+    "probe_unembed_cosine": 0.048964486401892694,
     "layers": [
       0,
       2,
@@ -82,7 +82,7 @@
       20,
       22
     ],
-    "accs": [
+    "accuracies": [
       0.495,
       0.51,
       0.5499999999999999,
@@ -96,7 +96,7 @@
       0.545,
       0.5349999999999999
     ],
-    "shuf": [
+    "shuffled_accuracies": [
       0.47000000000000003,
       0.4699999999999999,
       0.48,
